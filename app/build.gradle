@@ -1,0 +1,29 @@
+plugins { id "com.android.application" }
+
+android {
+    namespace "com.airbridge.mobile"
+    compileSdk 34
+    testBuildType "release"
+
+    defaultConfig {
+        applicationId "com.airbridge.mobile"
+        minSdk 28
+        targetSdk 34
+        versionCode 2
+        versionName "1.1.0"
+        testInstrumentationRunner "com.airbridge.mobile.BufferSettingsTest"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+        }
+    }
+    sourceSets.main.jniLibs.srcDirs = ["src/main/jniLibs"]
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AirBridge</string>
+    <string name="notification_channel">HomePod 播放</string>
+    <string name="scanning">正在扫描 AirPlay 设备…</string>
+</resources>

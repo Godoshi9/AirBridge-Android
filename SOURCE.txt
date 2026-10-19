@@ -1,0 +1,6 @@
+AirBridge Android 1.1.0
+License: GNU General Public License version 3 or later (GPL-3.0-or-later).
+Corresponding source: https://github.com/Godoshi9/AirBridge-Android/tree/v1.1.0
+Source archive: https://github.com/Godoshi9/AirBridge-Android/archive/refs/tags/v1.1.0.zip
+Native AirPlay transport is adapted from Ding-Kyoma/AirFlash.
+See LICENSE and THIRD_PARTY.md for attribution and terms.
